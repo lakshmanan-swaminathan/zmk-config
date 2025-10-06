@@ -24,7 +24,7 @@
         };
 
         lower_layer {
-            display-name = "Num";
+            display-name = "Numbers";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
@@ -65,7 +65,6 @@
                         &trans  &trans  &trans     &trans            &trans             &trans
             >;
 
-            label = "Media";
         };
     };
 
