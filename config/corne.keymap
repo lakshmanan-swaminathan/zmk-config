@@ -72,7 +72,7 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        Media {
+        media_layer {
             if-layers = <1 2>;
             then-layer = <3>;
         };
