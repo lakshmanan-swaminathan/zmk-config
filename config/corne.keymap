@@ -64,14 +64,13 @@
 &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &bt BT_PRV        &bt BT_NXT         &bt BT_CLR       &out OUT_TOG          &trans                &trans
                         &trans  &trans  &trans     &trans            &trans             &trans
             >;
-
         };
     };
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        Media {
+        media_layer {
             if-layers = <1 2>;
             then-layer = <3>;
         };
