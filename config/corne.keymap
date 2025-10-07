@@ -36,7 +36,7 @@
 &kp ESC       &trans  &kp HOME  &kp UP    &kp END    &kp PAGE_UP      &trans  &kp N7        &kp N8        &kp N9        &kp NUMBER_0  &kp BSPC
 &kp CAPSLOCK  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN    &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans        &kp DELETE
 &kp LSHFT     &trans  &trans    &trans    &trans     &kp INS          &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &kp PRINTSCREEN
-                                &kp LGUI  &trans     &trans           &trans  &trans        &kp RALT
+                                &kp LGUI  &trans     &trans           &trans  &trans        &kp N0
             >;
         };
 
@@ -66,5 +66,13 @@
             >;
         };
     };
-    
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        media_layer {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
 };
