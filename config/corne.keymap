@@ -16,9 +16,9 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB     &kp Q  &kp W  &kp E     &kp R  &kp T               &kp Y            &kp U  &kp I      &kp O    &kp P          &kp BACKSPACE
-&kp LCTRL   &kp A  &kp S  &kp D     &kp F  &kp G               &kp H            &kp J  &kp K      &kp L    &kp SEMICOLON  &kp SQT
-&kp LSHIFT  &kp Z  &kp X  &kp C     &kp V  &kp B               &kp N            &kp M  &kp COMMA  &kp DOT  &kp FSLH       &lt 3 ESCAPE
+&kp TAB     &kp Q  &kp W  &kp F     &kp P  &kp B               &kp J            &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BACKSPACE
+&kp LCTRL   &kp A  &kp R  &kp S     &kp T  &kp G               &kp M            &kp N  &kp E      &kp I    &kp O          &kp SQT
+&kp LSHIFT  &kp Z  &kp X  &kp C     &kp D  &kp V               &kp K            &kp H  &kp COMMA  &kp DOT  &kp FSLH       &lt 3 ESCAPE
                           &kp LGUI  &mo 1  &mt LSHIFT SPACE    &mt LCTRL ENTER  &mo 2  &kp RALT
             >;
         };
