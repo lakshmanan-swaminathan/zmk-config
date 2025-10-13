@@ -13,7 +13,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        colemak_layer {
             display-name = "COLEMAK DH";
             bindings = <
 &kp TAB     &kp Q  &kp W  &kp F     &kp P  &kp B               &kp J            &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BACKSPACE
@@ -23,7 +23,7 @@
             >;
         };
 
-        layer_4 {
+        qwerty_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
