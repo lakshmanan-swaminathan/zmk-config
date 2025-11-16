@@ -46,20 +46,20 @@
         qwerty_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB     &kp Q             &kp W             &kp E               &kp R          &kp T               &kp Y            &kp U          &kp I                &kp O              &kp P                      &kp BACKSPACE
-&kp LCTRL   &hmrl LEFT_ALT A  &hmrl LEFT_GUI S  &hmrl LEFT_SHIFT D  &hmrl LCTRL F  &kp G               &kp H            &hmrr RCTRL J  &hmrr RIGHT_SHIFT K  &hmrr RIGHT_GUI L  &hmrr RIGHT_ALT SEMICOLON  &kp SQT
-&kp LSHIFT  &kp Z             &kp X             &kp C               &kp V          &kp B               &kp N            &kp M          &kp COMMA            &kp DOT            &kp FSLH                   &lt 4 ESCAPE
-                                                &kp LGUI            &mo 2          &mt LSHIFT SPACE    &mt LCTRL ENTER  &mo 3          &kp RALT
+&kp TAB     &kp Q             &kp W             &kp E               &kp R          &kp T               &kp Y            &kp U            &kp I                &kp O              &kp P                      &kp BACKSPACE
+&kp LCTRL   &hmrl LEFT_ALT A  &hmrl LEFT_GUI S  &hmrl LEFT_SHIFT D  &hmrl LCTRL F  &kp G               &kp H            &hmrr RCTRL J    &hmrr RIGHT_SHIFT K  &hmrr RIGHT_GUI L  &hmrr RIGHT_ALT SEMICOLON  &kp SQT
+&kp LSHIFT  &kp Z             &kp X             &kp C               &kp V          &kp B               &kp N            &kp M            &kp COMMA            &kp DOT            &kp FSLH                   &lt 4 ESCAPE
+                                                &kp LGUI            &lt 2 TAB      &mt LSHIFT SPACE    &mt LCTRL ENTER  &lt 3 BACKSPACE  &kp RALT
             >;
         };
 
         colemak_layer {
             display-name = "COLEMAK DH";
             bindings = <
-&kp TAB     &kp Q  &kp W  &kp F     &kp P  &kp B               &kp J            &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BACKSPACE
-&kp LCTRL   &kp A  &kp R  &kp S     &kp T  &kp G               &kp M            &kp N  &kp E      &kp I    &kp O          &kp SQT
-&kp LSHIFT  &kp Z  &kp X  &kp C     &kp D  &kp V               &kp K            &kp H  &kp COMMA  &kp DOT  &kp FSLH       &lt 4 ESCAPE
-                          &kp LGUI  &mo 2  &mt LSHIFT SPACE    &mt LCTRL ENTER  &mo 3  &kp RALT
+&kp TAB     &kp Q  &kp W  &kp F     &kp P      &kp B               &kp J            &kp L            &kp U      &kp Y    &kp SEMICOLON  &kp BACKSPACE
+&kp LCTRL   &kp A  &kp R  &kp S     &kp T      &kp G               &kp M            &kp N            &kp E      &kp I    &kp O          &kp SQT
+&kp LSHIFT  &kp Z  &kp X  &kp C     &kp D      &kp V               &kp K            &kp H            &kp COMMA  &kp DOT  &kp FSLH       &lt 4 ESCAPE
+                          &kp LGUI  &lt 2 TAB  &mt LSHIFT SPACE    &mt LCTRL ENTER  &lt 3 BACKSPACE  &kp RALT
             >;
         };
 
